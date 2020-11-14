@@ -1,0 +1,18 @@
+var array [5]string
+
+var slice []int
+
+primes := [...] int {2,3,4,5,6}
+slice = primes[1:4]
+
+for i := range slice {
+    fmt.Println("....")
+}
+
+
+// make it first
+s := make([]int,5)
+
+s = append(s,6,8) //push ค่า
+
+len(s) จำนวนที่อยู่ข้างใน
